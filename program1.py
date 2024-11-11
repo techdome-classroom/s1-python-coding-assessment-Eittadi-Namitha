@@ -15,10 +15,10 @@ class Solution:
                 return
 
             visited.add((r, c))
-            dfs(r - 1, c)  # up
-            dfs(r + 1, c)  # down
-            dfs(r, c - 1)  # left
-            dfs(r, c + 1)  # right
+            dfs(r - 1, c) 
+            dfs(r + 1, c)  
+            dfs(r, c - 1) 
+            dfs(r, c + 1) 
         
         island_count = 0
         for r in range(rows):
