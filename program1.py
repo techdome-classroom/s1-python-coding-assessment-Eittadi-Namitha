@@ -23,7 +23,6 @@ class Solution:
         island_count = 0
         for r in range(rows):
             for c in range(cols):
-                # Start a new DFS if we find an unvisited land cell
                 if grid[r][c] == 'L' and (r, c) not in visited:
                     dfs(r, c)
                     island_count += 1
