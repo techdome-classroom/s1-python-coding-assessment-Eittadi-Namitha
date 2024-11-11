@@ -3,7 +3,7 @@ class Solution:
     def getTotalIsles(self, grid: list[list[str]]) -> int:
         if not grid:
             return 0
-    #    write your code here        
+    #    write your code here pytho
         rows, cols = len(grid), len(grid[0])
         visited = set()
         def dfs(r, c):
