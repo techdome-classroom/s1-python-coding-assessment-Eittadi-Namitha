@@ -22,5 +22,4 @@ class Solution:
                 if grid[r][c] == 'L' and (r, c) not in visited:
                     dfs(r, c)
                     island_count += 1
-        
         return island_count
