@@ -1,6 +1,8 @@
 class Solution:
    
     def getTotalIsles(self, grid: list[list[str]]) -> int:
+        if not grid:
+            return 0
     #    write your code here
                     
         return 0
