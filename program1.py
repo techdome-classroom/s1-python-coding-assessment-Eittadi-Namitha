@@ -13,7 +13,7 @@ class Solution:
             if (r < 0 or r >= rows or c < 0 or c >= cols or 
                 (r, c) in visited or grid[r][c] == 'W'):
                 return
-            # Mark current cell as visited
+
             visited.add((r, c))
             dfs(r - 1, c)  # up
             dfs(r + 1, c)  # down
