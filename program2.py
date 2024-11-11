@@ -9,7 +9,7 @@ def decode_message( s: str, p: str) -> bool:
                 for j in range(1, n+1):
                         if p[j-1]=='*':
                                 dp[i][j]=dp[i][j-2] or dp[j-2][j]
-                        elif p[j-1]
+                        elif p[j-1] == ''
 
 # write your code here
   
