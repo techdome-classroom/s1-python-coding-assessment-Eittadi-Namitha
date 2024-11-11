@@ -15,7 +15,6 @@ class Solution:
                 return
             # Mark current cell as visited
             visited.add((r, c))
-            # Explore neighbors (up, down, left, right)
             dfs(r - 1, c)  # up
             dfs(r + 1, c)  # down
             dfs(r, c - 1)  # left
